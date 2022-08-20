@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark py-3 fixed-top navbar-dark">
+      <div class="container">
+        <a href="#" class="navbar-brand">SmartWatch</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item"><a href="#shop" class="nav-link">Shop</a></li>
+            <li class="nav-item">
+              <a href="#sales" class="nav-link">Sales</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Outlets</a></li>
+          </ul>
+          <button class="btn btn-outline-light" type="Button">Pre Order</button>
+        </div>
+      </div>
+    </nav>
+    <!-- home -->
+    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 pb-lg-5" id="home">
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+          <div>
+            <h1>
+              Smart <span class="text-success">Watch</span> You <br />
+              Should Wear Everyday
+            </h1>
+            <p>
+              Smart watch helps you accurately track your all day
+              <br />activity, steps, calorie collections and distance travelled
+              & heart rate.
+            </p>
+            <button class="btn btn-outline-light mb-2" type="button">
+              Pre Order
+            </button>
+            <button class="btn btn-outline-success mb-2" type="button">
+              Watch how its works
+            </button>
+          </div>
+          <img
+            src="/pexels-pixabay-47856-removebg-preview.png"
+            alt=""
+            class="img-fluid w-50 d-none d-sm-block"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="brands">
+      <div class="container text-center shadow p-3 mb-5 bg-light rounded">
+        <h1>
+          <button class="btn btn-light"><h1>Our Brands</h1></button>
+          <i class="bi bi-google"></i>
+          <i class="bi bi-apple"></i>
+          <i class="bi bi-microsoft"></i>
+        </h1>
+      </div>
+    </section>
+    <!-- About -->
+    <section class="p-5" id="about">
+      <div class="container">
+        <h1 class="text-center mb-3">We Provide Best Services</h1>
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card shadow p-3 mb-5 bg-light rounded">
+              <div class="card-body text-center">
+                <div>
+                  <h1><i class="bi bi-shield-check text-success"></i></h1>
+                  <h3 class="card-title mb-3">Warranty included</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloribus, exercitationem! Itaque iusto maxime neque
+                    eveniet!
+                  </p>
+                  <button class="btn btn-success">
+                    Find Out More <i class="bi bi-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card shadow p-3 mb-5 bg-light rounded">
+              <div class="card-body text-center">
+                <div>
+                  <h1><i class="bi bi-clock-history text-success"></i></h1>
+                  <h3 class="card-title mb-3">Fast and safe Delivery</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloribus, exercitationem! Itaque iusto maxime neque
+                    evenivget!
+                  </p>
+                  <button class="btn btn-success">
+                    Find Out More <i class="bi bi-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card shadow p-3 mb-5 bg-light rounded">
+              <div class="card-body text-center">
+                <div>
+                  <h1><i class="bi bi-cart text-success"></i></h1>
+                  <h3 class="card-title mb-3">Warranty Included</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloribus, exercitationem! Itaque iusto maxime neque
+                    eveniet!
+                  </p>
+                  <button class="btn btn-success">
+                    Find Out More <i class="bi bi-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- shop -->
+    <section class="p-5" id="shop">
+      <h1 class="text-center mb-3">Our Popular Products</h1>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  alt=""
+                  class="card-img-top"
+                />
+                <h1 class="card-title">Apple Iwatch Series?</h1>
+                <p class="card-text">
+                  Make every beat count with change Hr-an advanced activity
+                  wristband that gives you automatic
+                </p>
+                <div class="d-flex">
+                  <button class="btn btn-dark">Add to Cart</button>
+                  <span class="text-dark ms-5"><h1>$450</h1></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://media.istockphoto.com/photos/luxury-watches-picture-id628540774?b=1&k=20&m=628540774&s=612x612&w=0&h=SdHFK8oIEyb15iChlCft7yqz5ZgxoMpcokv__uhKaio="
+                  alt=""
+                  class="card-img-top"
+                />
+                <h1 class="card-title">Apple Iwatch Series?</h1>
+                <p class="card-text">
+                  Make every beat count with change Hr-an advanced activity
+                  wristband that gives you automatic
+                </p>
+                <div class="d-flex">
+                  <button class="btn btn-dark">Add to Cart</button>
+                  <span class="text-dark ms-5"><h1>$450</h1></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="https://images.pexels.com/photos/9978938/pexels-photo-9978938.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  alt=""
+                  class="card-img-top"
+                />
+                <h1 class="card-title">Apple Iwatch Series?</h1>
+                <p class="card-text">
+                  Make every beat count with change Hr-an advanced activity
+                  wristband that gives you automatic
+                </p>
+                <div class="d-flex">
+                  <button class="btn btn-dark">Add to Cart</button>
+                  <span class="text-dark ms-5"><h1>$450</h1></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- sales -->
+    <section class="p-5" id="sales">
+      <div class="container">
+        <div class="row align-items-center justify-content-between g-2">
+          <div class="col-md text-center">
+            <img
+              src="https://images.pexels.com/photos/236915/pexels-photo-236915.jpeg?auto=compress&cs=tinysrgb&w=400="
+              class="img-fluid rounded-start d-none d-sm-block"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <div class="col-md">
+            <h2>Join For Exclusive Offer</h2>
+            <p>Subscribe to our email to find out how to save 10% off today</p>
+            <div class="input-group news-input">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter Email"
+              />
+              <button class="btn btn-success" type="button">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="bg-dark text-light pt-5 pb-4">
+      <div class="container text-md-left">
+        <div class="row text-md-left">
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h3 class="text-uppercase mb-4 font-weight-bold">shop</h3>
+            <p>
+              <a href="#" style="text-decoration: none" class="text-light"
+                >All Products</a
+              >
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none" class="text-light"
+                >New Collections</a
+              >
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none" class="text-light"
+                >Top selling</a
+              >
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none" class="text-light"
+                >All trends</a
+              >
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h3 class="text-uppercase mb-4 font-weight-bold">learn more</h3>
+            <p>
+              <a href="#" style="text-decoration: none" class="text-light"
+                >All Products</a
+              >
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none" class="text-light"
+                >New Collections</a
+              >
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none" class="text-light"
+                >Top selling</a
+              >
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none" class="text-light"
+                >All trends</a
+              >
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h3 class="text-uppercase mb-4 font-weight-bold">about us</h3>
+            <p>
+              <a href="#" style="text-decoration: none" class="text-light"
+                >All Products</a
+              >
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none" class="text-light"
+                >New Collections</a
+              >
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none" class="text-light"
+                >Top selling</a
+              >
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none" class="text-light"
+                >All trends</a
+              >
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none" class="text-light"
+                >All Products</a
+              >
+            </p>
+          </div>
+          <div class="col-md-2col-lg-2 col-xl-2 mx-auto mt-3">
+            <h3 class="text-uppercase mb-4 font-weight-bold">services</h3>
+            <p>
+              <a href="#" style="text-decoration: none" class="text-light"
+                >All Products</a
+              >
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none" class="text-light"
+                >New Collections</a
+              >
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none" class="text-light"
+                >Top selling</a
+              >
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none" class="text-light"
+                >All trends</a
+              >
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h3 class="text-uppercase mb-4 font-weight-bold">connect</h3>
+            <p>
+              <a href="#" style="text-decoration: none" class="text-light"
+                >All Products</a
+              >
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none" class="text-light"
+                >New Collections</a
+              >
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none" class="text-light"
+                >Top selling</a
+              >
+            </p>
+            <p>
+              <a href="#" style="text-decoration: none" class="text-light"
+                >All trends</a
+              >
+            </p>
+          </div>
+        </div>
+        <hr class="mb-4" />
+        <div class="row align-items-center">
+          <div class="col-md-7 col-lg-8">
+            <p>
+              Copyright &copy;2022 All rights reserved by:
+              <a href="#" style="text-decoration: none"
+                ><strong class="text-success">fvtima_</strong></a
+              >
+            </p>
+          </div>
+          <div class="col-md-5 col-lg-4">
+            <div class="text-center text-md-right">
+              <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                  <a
+                    href="#"
+                    class="btn-floating btn-sm text-light"
+                    style="font-size: 23px"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    href="#"
+                    class="btn-floating btn-sm text-light"
+                    style="font-size: 23px"
+                    ><i class="bi bi-twitter"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    href="#"
+                    class="btn-floating btn-sm text-light"
+                    style="font-size: 23px"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    href="#"
+                    class="btn-floating btn-sm text-light"
+                    style="font-size: 23px"
+                    ><i class="bi bi-meta"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

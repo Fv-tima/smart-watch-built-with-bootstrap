@@ -1,0 +1,25 @@
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+.brands {
+  background-color: white;
+  width: 70%;
+  margin: -25px auto 0;
+
+  border-radius: 5px;
+}
+
+@media(min-width:700px){
+ .carousel-inner .card{
+  width: 50%;
+  margin: 0 auto;
+ }
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
